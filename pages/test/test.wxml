@@ -1,0 +1,26 @@
+<template name="directory">
+<!--{{name}}-->
+hello
+    <view wx:for="{{name}}" wx:for-item="node">
+        {{node.name}}
+        <block wx:if="{{node.directory}}">
+        sss
+        <!--<view wx:for="{{item.directory}}">
+            {{item.name}}
+        </view>-->
+        {{node.directory}}
+        <template is="directory" data="{{name: node.directory}}"/>
+        </block>
+    </view>
+</template>
+
+<template is="directory" data="{{name: directory}}"/>
+
+  <!--<view wx:for="{{directory}}">
+    {{item.name}}
+    <view wx:for="{{item.directory}}">
+        {{item.name}}
+    </view>
+  </view>-->
+<!--<view>hello world</view>-->
+<!--<view>hello world</view>-->
