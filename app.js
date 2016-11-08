@@ -1,3 +1,5 @@
+const markdown = require('./utils/markdown/index.js').markdown
+
 //app.jss
 App({
   onLaunch: function () {
@@ -5,18 +7,6 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-    wx.request({
-      url: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
-      success(res) {
-        console.log(res);
-      },
-      fail() {
-        console.log('fail');
-      },
-      complete() {
-        console.log('complete')
-      }
-    })
   },
   getUserInfo:function(cb){
     var that = this

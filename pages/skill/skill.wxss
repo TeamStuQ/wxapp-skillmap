@@ -1,0 +1,25 @@
+/**index.wxss**/
+.h1 {
+    display: flex;
+    align-items: center;
+}
+
+.h2 {
+    color: blue;
+}
+
+.h3 {
+    color: red;
+}
+
+.h4 {
+    color: deepskyblue;
+}
+
+.h5 {
+    color: burlywood
+}
+
+.h6 {
+    color: saddlebrown
+}

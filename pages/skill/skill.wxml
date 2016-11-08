@@ -1,0 +1,5 @@
+<block wx:for="{{node}}" wx:key="*this">
+<view class="{{item.style}}">
+{{item.content}}
+</view>
+</block>
