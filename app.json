@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/skill-list/skill-list",
     "pages/skill/skill",
     "pages/test/test",
     "pages/index/index",
@@ -15,7 +16,7 @@
   "tabBar": {
     "position": "bottom",
     "list": [{
-      "pagePath": "pages/skill/skill",
+      "pagePath": "pages/skill-list/skill-list",
       "text": "技能图谱"
     }, {
       "pagePath": "pages/logs/logs",

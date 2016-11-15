@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    padding: 10rpx;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    background-color: yellow;
+}
+
+.item {
+    width: 200rpx;
+    height: 340rpx;
+    margin-top: 10rpx;
+    margin-right: 10rpx;
+    /*border: 1px solid black;*/
+}
+.item image {
+    width: 200rpx;
+    height: 300rpx;
+}
+.item text {
+    width: 200rpx;
+    height: 40rpx;
+}
+
+/*.item:nth-child(n+4) {
+    margin-top: 10rpx;
+}*/

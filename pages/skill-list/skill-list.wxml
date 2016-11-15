@@ -1,0 +1,8 @@
+<view class="wrapper">
+    <block wx:for="{{skills}}" wx:key="*this">
+        <view class="item" data-index="{{index}}" bindtap="onTap">
+            <image src="/resources/architecture.jpg" mode="aspectFit"></image>
+            <text >{{item.name}}</text>
+        </view>
+    </block>
+</view>

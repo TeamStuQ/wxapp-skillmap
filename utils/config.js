@@ -1,4 +1,32 @@
 module.exports = {
+    skills: [
+        {
+            name: '架构师',
+            author: '林晨',
+            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
+        },
+        {
+            name: '架构师',
+            author: '林晨',
+            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
+        },
+        {
+            name: '架构师',
+            author: '林晨',
+            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
+        },
+        {
+            name: '架构师',
+            author: '林晨',
+            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
+        },
+        {
+            name: '架构师',
+            author: '林晨',
+            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
+        },
+
+    ],
     url: [
         'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
         'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-BigDataEngineer.md',
