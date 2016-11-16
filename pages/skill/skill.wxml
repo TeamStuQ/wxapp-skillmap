@@ -1,12 +1,15 @@
-<view>{{skill.name}}</view>
-<block wx:for="{{skill.contribute}}" wx:key="*this">
-    <view>
-        <text>{{item.name}}</text><text>{{item.title}}</text>
-    </view>
-</block>
+<view class="wrap">
+<view class="name">{{skill.name}}</view>
+<view class="contribute">
+<view class="label">贡献者：</view>
+<view wx:for="{{skill.contribute}}" wx:key="*this" class="content">
+    <text>{{item.name}}</text> - <text>{{item.title}}</text>
+</view>
+</view>
 <block wx:for="{{node}}" wx:key="*this">
-<view class="{{item.style}}">
-{{item.style}}
+<view class="{{item.style}} item">
+<!-- ({{item.style}})- -->
 {{item.content}}
 </view>
 </block>
+</view>

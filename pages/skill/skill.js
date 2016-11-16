@@ -26,6 +26,10 @@ Page({
     },
     onLoad(option) {
         if(option.index === undefined) return;
+        wx.setNavigationBarTitle({
+            title: store.skills[option.index].name
+        })
+        wx.showNavigationBarLoading()
         wx.request({
             url: store.skills[option.index].link,
             success: (res) => {
@@ -64,6 +68,7 @@ Page({
           fail() {
           },
           complete() {
+              wx.hideNavigationBarLoading()
           }
         })
     }

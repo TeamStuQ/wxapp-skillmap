@@ -1,25 +1,68 @@
 /**index.wxss**/
-.h1 {
-    display: flex;
-    align-items: center;
+.wrap {
+    padding: 40rpx 30rpx;
+    color: #353535
+}
+.name {
+    font-size: 80rpx;
+    color: #353535;
+    margin-bottom: 40rpx;
+}
+.contribute {
+    font-size: 40rpx;
+    color: #b2b2b2;
+    padding-bottom: 20rpx;
+    border-bottom: 1rpx solid #b2b2b2;
+}
+.contribute .label {
+    margin-bottom: 20rpx;
+}
+.contribute .content {
+    margin-left: 20rpx;
+    font-size: 28rpx;
+    line-height: 1.8;
+}
+
+.item {
+    border-bottom: 1rpx solid #eee;
+    line-height: 1.5;
 }
 
 .h2 {
-    color: blue;
+    padding: 40rpx 0;
+    font-size: 44rpx;
 }
 
 .h3 {
-    color: red;
+    padding: 20rpx 0;
+    font-size: 36rpx;
+    color: #555;
 }
 
-.h4 {
-    color: deepskyblue;
+.l1 {
+    padding: 16rpx 0;
+    font-size: 30rpx;
+    color: #777;
+    margin-left: 15rpx;
 }
 
-.h5 {
-    color: burlywood
+.l2 {
+    padding: 10rpx 0;
+    font-size: 14px;
+    color: #999;
+    margin-left: 30rpx;
 }
 
-.h6 {
-    color: saddlebrown
+.l3 {
+    padding: 4rpx 0;
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 45rpx;
+}
+
+.l4 {
+    padding: 0;
+    font-size: 10px;
+    color: #ccc;
+    margin-left: 60rpx;
 }
