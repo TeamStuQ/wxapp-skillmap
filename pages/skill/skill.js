@@ -1,20 +1,36 @@
 const markdown = require('../../utils/markdown/index.js').markdown
 const store = require('../../store/store.js')
 
+/**
+ * @param {integer} n    影响 style 的值
+ */
 const parseList = (node, n, data) => {
+    function addItem(item, n, data) {
+      if (Array.isArray(item)) {
+        if (item[2]) {
+          data.push({
+              style: 'l'+n,
+              content: item[2],
+          })
+        } else {
+          data.push({
+              style: 'l'+n,
+              content: item[1],
+          })
+        }
+      } else {
+        data.push({
+            style: 'l'+n,
+            content: item,
+        })
+      }
+    }
     for (let i=1; i<node.length; i++) {
-        //  console.log(node[i]);
         if ( node[i][2] && Array.isArray(node[i][2]) ) {
-            data.push({
-                style: 'l'+n,
-                content: node[i][1],
-            })
+            addItem(node[i][1], n, data)
             parseList(node[i][2], n+1, data)
         } else {
-            data.push({
-                style: 'l'+n,
-                content: node[i][1],
-            })
+            addItem(node[i][1], n, data)
         }
     }
 }
@@ -22,14 +38,22 @@ const parseList = (node, n, data) => {
 Page({
     data: {
         skill: {},
-        node: []
+        node: [],
+        // loading: false,
     },
     onLoad(option) {
         if(option.index === undefined) return;
         wx.setNavigationBarTitle({
             title: store.skills[option.index].name
         })
-        wx.showNavigationBarLoading()
+        // wx.showNavigationBarLoading()
+        // this.setData({loading: true});
+        wx.showToast({
+          title: '加载中',
+          icon: 'loading',
+          duration: 10000
+        })
+
         wx.request({
             url: store.skills[option.index].link,
             success: (res) => {
@@ -67,8 +91,10 @@ Page({
             },
           fail() {
           },
-          complete() {
-              wx.hideNavigationBarLoading()
+          complete: () => {
+              // wx.hideNavigationBarLoading()
+              wx.hideToast()
+              // this.setData({loading: false})
           }
         })
     }

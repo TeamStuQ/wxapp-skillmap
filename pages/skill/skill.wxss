@@ -43,26 +43,26 @@
     padding: 16rpx 0;
     font-size: 30rpx;
     color: #777;
-    margin-left: 15rpx;
+    margin-left: 30rpx;
 }
 
 .l2 {
     padding: 10rpx 0;
-    font-size: 14px;
+    font-size: 30rpx;
     color: #999;
-    margin-left: 30rpx;
+    margin-left: 60rpx;
 }
 
 .l3 {
-    padding: 4rpx 0;
-    font-size: 12px;
+    padding: 10rpx 0;
+    font-size: 30rpx;
     color: #aaa;
-    margin-left: 45rpx;
+    margin-left: 90rpx;
 }
 
 .l4 {
-    padding: 0;
-    font-size: 10px;
-    color: #ccc;
-    margin-left: 60rpx;
+    padding: 10;
+    font-size: 26rpx;
+    color: #bbb;
+    margin-left: 120rpx;
 }
