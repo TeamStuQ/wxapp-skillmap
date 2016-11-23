@@ -27,6 +27,5 @@
           "iconPath": "resources/icon-about.png",
           "selectedIconPath": "resources/icon-about-select.png"
         }]
-    },
-    "debug": true
+    }
 }
