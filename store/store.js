@@ -66,7 +66,7 @@ module.exports = {
             color: c2,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MachineLearning.md',
             contribute: [
-                {name: '徐英凯', title: '闪银机器学习工程师'}
+                {name: '@徐英凯', title: '闪银机器学习工程师'}
             ],
         },
         {
@@ -98,7 +98,7 @@ module.exports = {
             color: c3,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Git.md',
             contribute: [
-                {name: '吴坚', title: '南航软件工程师'}
+                {name: '@吴坚', title: '南航软件工程师'}
             ],
         },
         {
