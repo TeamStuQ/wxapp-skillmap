@@ -9,7 +9,6 @@ module.exports = {
             color: c1,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Architect.md',
             contribute: [
-<<<<<<< HEAD
                 {name: '@沈剑', title: '58 到家技术委员会主席 & 技术总监'}
             ],
         },
@@ -64,7 +63,7 @@ module.exports = {
         },
         {
             name: '机器学习',
-            color: c1,
+            color: c2,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MachineLearning.md',
             contribute: [
                 {name: '徐英凯', title: '闪银机器学习工程师'}
@@ -72,7 +71,7 @@ module.exports = {
         },
         {
             name: '运维',
-            color: c2,
+            color: c3,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-IntelligentDevOps.md',
             contribute: [
                 {name: '@TankyWoo', title: '知道创宇运维工程师'}
@@ -80,7 +79,7 @@ module.exports = {
         },
         {
             name: '微服务架构',
-            color: c3,
+            color: c1,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Microservice.md',
             contribute: [
                 {name: '@王磊', title: '尚度元科技 CTO'}
@@ -88,43 +87,31 @@ module.exports = {
         },
         {
             name: 'DBA',
-            color: c1,
+            color: c2,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-DBA.md',
             contribute: [
                 {name: '@杨一', title: '杭州有赞科技公司 DBA 专家'}
-=======
-                {name: '沈剑', title: '58到家技术委员会主席／技术总监'},
             ],
         },
         {
             name: 'Git',
-            color: c2,
+            color: c3,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Git.md',
             contribute: [
                 {name: '吴坚', title: '南航软件工程师'}
->>>>>>> 7364d7017ff19eb5bd76dc286503271c0631c0d0
             ],
         },
         {
             name: 'OpenResty',
-<<<<<<< HEAD
-            color: c2,
+            color: c1,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-OpenResty.md',
             contribute: [
-                {name: '@温铭', title: '奇虎 360 架构师'}
-=======
-            color: c3,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-OpenResty.md',
-            contribute: [
-              {name: '温铭', title: '奇虎服务端架构师'}
->>>>>>> 7364d7017ff19eb5bd76dc286503271c0631c0d0
+                {name: '@温铭', title: '奇虎 360 服务端架构师'}
             ],
         },
-        
         {
-<<<<<<< HEAD
             name: 'Android App 开发',
-            color: c3,
+            color: c2,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MobileDev-AndroidDev.md',
             contribute: [
                 {name: '@anly_jun', title: ''}
@@ -132,7 +119,7 @@ module.exports = {
         },
         {
             name: 'Android Rom 开发',
-            color: c1,
+            color: c3,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MobileDev-AndroidROMDev.md',
             contribute: [
                 {name: '@anly_jun', title: ''}
@@ -176,67 +163,18 @@ module.exports = {
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Container.md',
             contribute: [
                 {name: '@林帆', title: 'ThoughtWorks DevOps 咨询师'}
-=======
-            name: '直播平台',
-            color: c1,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-LiveTelecast.md',
-            contribute: [
-                {name: '李雨来', title: 'SpeedyCloud 迅达云技术 VP'}
             ],
-        },
-        {
-            name: 'iOS 开发',
-            color: c2,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MobileDev-iOSDev.md',
-            contribute: [
-                {name: '唐巧', title: '猿题库小猿搜题产品技术负责人'}
-            ],
-        },
-        {
-            name: '前端工程师',
-            color: c3,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-FrontEndEngineer.md',
-            contribute: [
-                {name: 'jayli（拔赤）', title: '阿里巴巴前端资深技术专家'},
-                {name: 'Jackson Tian', title: '阿里巴巴前端技术工程师'},
-            ],
-        },
-        {
-            name: 'Nodejs',
-            color: c1,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-DevLang-Nodejs.md',
-            contribute: [
-                {name: '桑世龙（i5ting）', title: 'Nodejs 布道者'}
-            ],
-        },
-        {
-            name: '微服务架构',
-            color: c2,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Microservice.md',
-            contribute: [
-                {name: '王磊', title: '西安尚度元科技技术总监'}
-            ],
-        },
-        {
-            name: '容器 Container',
-            color: c3,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-Container.md',
-            contribute: [
-                {name: '林帆', title: 'ThoughtWorks DevOps 咨询师'}
-            ],
-        },
+        },  
         {
             name: '机器学习',
             color: c1,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MachineLearning.md',
             contribute: [
                 {name: '徐英凯', title: '闪银机器学习工程师'}
->>>>>>> 7364d7017ff19eb5bd76dc286503271c0631c0d0
             ],
         },
         
         {
-<<<<<<< HEAD
             name: '直播技术',
             color: c1,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-LiveTelecast.md',
@@ -289,7 +227,7 @@ module.exports = {
             color: c1,
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-DevLang-Golang.md',
             contribute: [
-                {name: '谢孟军', title: 'ThoughtWorks DevOps 咨询师'}
+                {name: '谢孟军', title: 'Apple 资深技术专家'}
             ],
         },
         {
@@ -330,29 +268,6 @@ module.exports = {
             link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-DevLang-Clojure.md',
             contribute: [
                 {name: '@Loretta', title: 'SwiftKey 软件工程师'}
-            ],
-        },
-        {
-            name: 'Go',
-            color: c1,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-DevLang-Golang.md',
-            contribute: [
-                {name: '林帆', title: 'ThoughtWorks DevOps 咨询师'}
-=======
-            name: '安全工程师',
-            color: c2,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-SecurityEngineer.md',
-            contribute: [
-                {name: '余弦', title: '知道创宇技术 VP'}
-            ],
-        },
-        {
-            name: 'Android App 开发',
-            color: c3,
-            link: 'https://raw.githubusercontent.com/TeamStuQ/skill-map/master/data/map-MobileDev-AndroidDev.md',
-            contribute: [
-                {name: 'mingjunli', title: ''}
->>>>>>> 7364d7017ff19eb5bd76dc286503271c0631c0d0
             ],
         },
     ],
