@@ -7,16 +7,24 @@ const store = require('../../store/store.js')
 const parseList = (node, n, data) => {
     function addItem(item, n, data) {
       if (Array.isArray(item)) {
-        if (item[2]) {
+        console.log(item)
+        if (Array.isArray(item[1])) {
           data.push({
               style: 'l'+n,
-              content: item[2],
+              content: item[1][2],
           })
         } else {
-          data.push({
-              style: 'l'+n,
-              content: item[1],
-          })
+          if (item[2]) {
+            data.push({
+                style: 'l'+n,
+                content: item[2],
+            })
+          } else {
+            data.push({
+                style: 'l'+n,
+                content: item[1],
+            })
+          }
         }
       } else {
         data.push({
